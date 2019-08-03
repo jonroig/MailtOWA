@@ -1,7 +1,7 @@
 {
   "name": "MailtOWA",
   "version": "1.0",
-  "description": "Mailto links go directly Microsoft Office 365 Outlook Web Application",
+  "description": "Mailto links go directly Microsoft Office 365 Webmail / Outlook Web Application by default",
   "permissions": ["storage"],
   "options_page": "options.html",
   "background": {
@@ -30,5 +30,5 @@
     "48": "images/mail48.png",
     "128": "images/mail128.png"
   },
-  "manifest_version": 3
+  "manifest_version": 2
 }
