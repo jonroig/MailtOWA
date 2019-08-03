@@ -6,9 +6,8 @@
 
 ### Usage
 
-* Install in Chrome
-  * App store admission pending
-  * Open chrome://extensions/ and drag and drop the <a href="https://github.com/jonroig/MailtOWA/raw/master/Mailtowa.crx">Mailtowa.crx</a> file into the window
+* Install in Chrome (Chrome App Store pending)
+  * Open `chrome://extensions/` and drag and drop the <a href="https://github.com/jonroig/MailtOWA/raw/master/Mailtowa.crx">Mailtowa.crx</a> file into the window
 * Click any `mailto:` link and compose your message directly in OWA
 * Profit?
 
