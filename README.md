@@ -1,6 +1,6 @@
 # MailtOWA
 
-### Chrome Extension to open mailto: links by default with Outlook Web Application (OWA) / Office 365
+### Chrome Extension opens mailto: links by default with Outlook Web Application (OWA) / Office 365
 
 ... the missing bit of functionality that Microsoft should have provided?
 
