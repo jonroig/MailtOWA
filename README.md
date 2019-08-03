@@ -11,9 +11,9 @@
 * Profit?
 
 ### Test
-If you have the MailtOWA extension installed, clicking these links should load Outlook Web Application (OWA) in a new tab.
+If you have the MailtOWA extension installed, clicking these links should load Outlook Web Application (OWA) in a new tab. (You might need to refresh the page.)
 * <a href="mailto:fake@example.com">Basic email address</a>
-* <a href="mailto:fake@example.com?subject=test%20subject&body=This%20is%20the%20body%20of%20this%20message.">Email address, subject and body</a>
+* <a href="mailto:yourfriends@example.com?subject=Wassup&body=Emoji%20domains%3F%20That%20seems%20like%20a%20terrible%20idea%21%20%F0%9F%A4%91%0A%0Ahttps%3A%2F%2Fi%E2%9D%A4%EF%B8%8F.ws">Email address, subject and body</a>
 
 ### Credits
 MailtOWA is free extension by <a href="https://i❤️.ws" target="_blank">i❤️.ws Emoji Domains</a>
