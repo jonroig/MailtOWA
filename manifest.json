@@ -1,5 +1,5 @@
 {
-  "name": "MailtOWA: Mailto for Office 365 / Office Web App",
+  "name": "MailtOWA: Mailto for Office 365 / OfficeWebApp",
   "version": "1.0",
   "description": "Mailto links go directly Microsoft Office 365 Webmail / Outlook Web Application by default",
   "permissions": ["storage"],
