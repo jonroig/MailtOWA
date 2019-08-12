@@ -6,8 +6,7 @@
 
 ### Usage
 
-* Install in Chrome (Chrome App Store pending)
-  * Open `chrome://extensions/` and drag and drop the <a href="https://github.com/jonroig/MailtOWA/raw/master/Mailtowa.crx">Mailtowa.crx</a> file into the window
+* Install <a href="https://chrome.google.com/webstore/detail/mailtowa-mailto-o365-webm/hmfdmbcialnfpcjcjmlenekddfeaimnm?hl=en&gl=US" title="Chrome Extension opens mailto: links by default with Outlook Web Application (OWA) / Office 365">MailtOWA from the Google Chrome store</a>
 * Click any `mailto:` link and compose your message directly in OWA
 * Profit?
 
