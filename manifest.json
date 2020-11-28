@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Mailto links open Microsoft Office 365 Webmail / Outlook Web Application Compose by default",
   "permissions": ["storage"],
-  "options_page": "options.html",
+  "options_page": "popup.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
