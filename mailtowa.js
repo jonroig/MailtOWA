@@ -13,11 +13,12 @@ const handleLink = (e) => {
                 const urlString = data.owaIntercept.length === 2 ? "office" : "live";
                 const outlookString = `https://outlook.${urlString}.com/owa/?path=/mail/action/compose&${paramString}`;
                 window.open(outlookString, '_blank');
-
-                e.preventDefault();
-                return false;
             }
         });
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        e.stopPropagation();
+        return false;
     }
 }
 

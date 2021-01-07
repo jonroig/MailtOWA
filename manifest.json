@@ -1,6 +1,6 @@
 {
   "name": "MailtOWA: Mailto O365 Webmail / OutlookWebApp",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Mailto links open Microsoft Office 365 Webmail / Outlook Web Application Compose by default",
   "permissions": ["storage"],
   "options_page": "popup.html",
