@@ -2,29 +2,61 @@
 <html>
   <head>
       <meta charset="UTF-8" />
+      <style>
+          section {
+              margin-bottom: 1.5em;
+          }
+          .input-control {
+              margin-bottom: 1em;
+          }
+          input[type=radio],
+          input[type=checkbox] {
+              margin: 0 10px;
+          }
+          input:checked + label {
+              font-weight: bold;
+          }
+          .domain {
+              padding-left: 50px;
+          }
+          input:not(:checked) ~ .domain {
+              display: none;
+          }
+      </style>
   </head>
 
   <body style="width: 500px;">
       <h1>MailtOWA</h1>
-      <h4>Mailto links go to:</h4>
-      <p>
-        <label>
-          <input type="radio" name="intercept" id="interceptOn" value="on" style="margin: 0 10px 0 10px;">
-          <span id="interceptOnText">Outlook.Office (company accounts)</span>
-        </label>
-      </p><p>
-        <label>
-          <input type="radio" name="intercept" id="interceptOnLive" value="off" style="margin: 0 10px 0 10px;">
-          <span id="interceptOnLiveText">Outlook.Live (private accounts)</span>
-        </label>
-      </p><p>
-        <label>
-          <input type="radio" name="intercept" id="interceptOff" value="off" style="margin: 0 10px 0 10px;">
-          <span id="interceptOffText">default application (turn off this extension)</span>
-        </label>
-      </p><p>
-          ... the missing bit of functionality that Microsoft should have provided?
-      </p>
+      <section>
+        <h4>Mailto links go to:</h4>
+        <div class="input-control">
+          <input type="radio" name="intercept" id="interceptOn" value="on">
+          <label for="interceptOn">Outlook.Office (company accounts)</label>
+        </div>
+        <div class="input-control">
+          <input type="radio" name="intercept" id="interceptOnLive" value="on_live">
+          <label for="interceptOnLive">Outlook.Live (private accounts)</label>
+        </div>
+        <div class="input-control">
+          <input type="radio" name="intercept" id="interceptOnCustom" value="on_custom">
+          <label for="interceptOnCustom">Custom domain (company accounts on an internal server)</label>
+          <div class="domain">
+            <label for="domain">Domain:</label>
+            <input type="text" name="domain" id="domain">
+          </div>
+        </div>
+        <div class="input-control">
+          <input type="radio" name="intercept" id="interceptOff" value="off">
+          <label for="interceptOff">default application (turn off this extension)</label>
+        </div>
+      </section>
+      <section>
+        <div class="input-control">
+          <input type="checkbox" name="popup" id="popup">
+          <label for="popup">Open in popup</label>
+        </div>
+      </section>
+      <p>... the missing bit of functionality that Microsoft should have provided?</p>
       <div style="text-align:center">
           <strong>A free extension by<br/> <a href="https://i❤️.ws" target="_blank">i❤️.ws</a> Emoji Domains</strong>
           <br/>
