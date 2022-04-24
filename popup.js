@@ -40,7 +40,7 @@ interceptOn.onclick = () => {
       interceptOnLive.checked = false;
       interceptOff.checked = false;
       interceptOnText.style.fontWeight = 'bold';
-      interceptOnLive.style.fontWeight = 'normal';
+      interceptOnLiveText.style.fontWeight = 'normal';
       interceptOffText.style.fontWeight = 'normal';
   });
 }
